@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         askButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Log.d("Magic8", "the message has meen pressed");
+                //Log.d("Magic8", "the button has been pressed");
                 Random randomChoice = new Random();
                 int number = randomChoice.nextInt(5);
 
